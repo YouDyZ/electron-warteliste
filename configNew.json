@@ -1,0 +1,10 @@
+{
+    "finished": false,
+    "global": {},
+    "database": {
+        "connection": "mongodb+srv://Blauer:<password>@cluster0.ewbib.mongodb.net/<dbname>?retryWrites=true&w=majority",
+        "dbname": "rehaverein",
+        "password_clean": "K4GsCczWbBr2NPlk",
+        "password": "$2b$10$0nnrDFM2DVeu5/etd27TkucKarucyag3oOk0ebmGE0/DZ1BSK5UTW"
+    }
+}

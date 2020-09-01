@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Rehaverein Wareschlange</title>
-    <link rel="stylesheet" href="index.css">
-    <script src="script.js" defer></script>
-  </head>
-  <body>
-    <h1>Wartechlage für Rehaurse</h1>
-    <p>Hier ist die Warteschlnge</p>
-    <p id="dom"></p>
-    <button onclick="sending()">Click here!</button>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Wareschlange</title>
+        <link rel="stylesheet" href="index.css" />
+        <script src="./scripts/script.js" defer></script>
+        <script>
+            /* Get starte of Installation */
+        </script>
+    </head>
+    <body id="LoginBody">
+        <h1>Wilkommen</h1>
+
+        <div class="login-area">
+            <input id="login_username" type="text" placeholder="Nutzername" required />
+            <input id="login_password" type="password" placeholder="Passwort" required />
+            <div id="errors" class="errors">
+                <span id="errorField"></span>
+            </div>
+        </div>
+
+        <button id="login" onclick="login()">Login</button>
+    </body>
 </html>
